@@ -1,0 +1,6 @@
+framework module KDSuperImages {
+  umbrella header "KDSuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

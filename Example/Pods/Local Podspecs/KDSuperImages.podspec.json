@@ -1,0 +1,22 @@
+{
+  "name": "KDSuperImages",
+  "version": "0.1.0",
+  "summary": "A short description of KDSuperImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kuldeep-dvt/KDSuperImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuldeep-dvt": "KBhatt@jhb.dvt.co.za"
+  },
+  "source": {
+    "git": "https://github.com/kuldeep-dvt/KDSuperImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KDSuperImages/Classes/**/*"
+}
