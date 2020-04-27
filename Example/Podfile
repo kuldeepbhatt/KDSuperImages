@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KDSuperImages_Example' do
+  pod 'KDSuperImages', :path => '../'
+
+  target 'KDSuperImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
