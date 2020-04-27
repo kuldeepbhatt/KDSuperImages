@@ -10,12 +10,12 @@
 		00DD6E25308871F75CEC1360018B8163 /* Pods-KDSuperImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DD25A43DDCF58E86715E63176C1030 /* Pods-KDSuperImages_Example-dummy.m */; };
 		1AE5BFEE6A569A8DFE730188AA73E822 /* KDSuperImages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF25258AD6DC30AC5134F22E6F6E725 /* KDSuperImages-dummy.m */; };
 		1CF9E54C4CD47C33E29F31CE6649603D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		21EEA379245724F3001BAC48 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EEA378245724F3001BAC48 /* UIImageViewExtensions.swift */; };
 		26C26458ED8E48E674E5E94E94A8B6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3C9E71A4C23626F393C1AFC38AFFD4C7 /* KDSuperImages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 550988D078D005FC826CAE97DD832AEF /* KDSuperImages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CDE7E2B39ED5285055176C832DA6CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		65003459F0B2D528898C1BE19C529C9B /* Pods-KDSuperImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABDA6D445F450AE5C42C65E10BEE229 /* Pods-KDSuperImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EEABF4E2F3972D1D69A2C402285037C /* Pods-KDSuperImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC7BC0F6DEBD35D332C41ACF02F949E /* Pods-KDSuperImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5A619D76B9C83206116774B9DF695B3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1632DCC4E5384285E2FCBCCA705A110 /* ReplaceMe.swift */; };
 		E94A229C930C82A0B8802DC34ED24CD1 /* Pods-KDSuperImages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572B561D302A2A9C9C0AECE2A99987BC /* Pods-KDSuperImages_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +42,7 @@
 		13AFB66E22A36C6CE76F172EBCDD9EDB /* Pods-KDSuperImages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDSuperImages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1710CEFDE7683703DBB3D7B6C5915F72 /* KDSuperImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KDSuperImages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		17C0682B34570E33D0EE8A1D05E0ACDB /* KDSuperImages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDSuperImages-prefix.pch"; sourceTree = "<group>"; };
+		21EEA378245724F3001BAC48 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = KDSuperImages/Classes/UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		3061668D588C89489EFD6AB8529E1142 /* Pods-KDSuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDSuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BF3DF128E94C00B35B83461E47A8654 /* KDSuperImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDSuperImages.modulemap; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		DBEB79B5DD26C40CD98D9399ADE69589 /* Pods-KDSuperImages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDSuperImages_Tests.modulemap"; sourceTree = "<group>"; };
 		E83373C3F5010B7D236BD5B50DC3C46E /* Pods_KDSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9C2D4416DE0481215C5631C2B71BDA /* Pods-KDSuperImages_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDSuperImages_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F1632DCC4E5384285E2FCBCCA705A110 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KDSuperImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FA5EB7C72092FBDB7B8748A1BD5D3096 /* KDSuperImages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDSuperImages.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,9 +118,9 @@
 		2AB4E58F37A62BAE1991127985C47185 /* KDSuperImages */ = {
 			isa = PBXGroup;
 			children = (
-				F1632DCC4E5384285E2FCBCCA705A110 /* ReplaceMe.swift */,
 				519676A5921B7C4BFB43D63BAC46954E /* Pod */,
 				11E82B79A1C83C2F628FC965E9D080A8 /* Support Files */,
+				21EEA378245724F3001BAC48 /* UIImageViewExtensions.swift */,
 			);
 			name = KDSuperImages;
 			path = ../..;
@@ -373,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE5BFEE6A569A8DFE730188AA73E822 /* KDSuperImages-dummy.m in Sources */,
-				E5A619D76B9C83206116774B9DF695B3 /* ReplaceMe.swift in Sources */,
+				21EEA379245724F3001BAC48 /* UIImageViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
